@@ -1,0 +1,17 @@
+package src.main.java.com.remedios.ewergthon.API.controllers;
+
+import org.sprinframeork.web.bind.anotation.GetMapping;
+import org.sprinframeork.web.bind.anotation.RequestMapping;
+import org.sprinframeork.web.bind.anotation.RestController;
+
+@RestController
+@RequestMapping("/hello")
+
+public class HelloWorld {
+
+	@GetMapping
+	public String olaMundo(){
+	   
+		return "Hello World";
+	}
+}

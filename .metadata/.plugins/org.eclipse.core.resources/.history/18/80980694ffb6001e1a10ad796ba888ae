@@ -1,0 +1,8 @@
+package src.main.java.com.remedios.ewergthon.API.controllers;
+
+@RestController
+@RequestMapping("/hello")
+
+public class HelloWorld {
+
+}
